@@ -1,13 +1,13 @@
 {
   "name": "Suave UI",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "authors": [
     "Semyon Vyskubov <sv@rv7.ru>"
   ],
   "description": "UI Framework for AngularJS",
   "main": [
-    "dist/app.js",
-    "dist/styles-bower.css"
+    "dist/app.min.js",
+    "dist/styles-bower.min.css"
   ],
   "keywords": [
     "angular",
@@ -21,10 +21,12 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "components",
     "demo",
     "scripts",
     "styles",
-    "templates"
+    "templates",
+    "package.json"
   ],
   "dependencies": {
     "animate.css": "~3.2.0",
